@@ -1,0 +1,24 @@
+body {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#d16ba5), color-stop(#c777b9), color-stop(#ba83ca), color-stop(#aa8fd8), color-stop(#9a9ae1), color-stop(#8aa7ec), color-stop(#79b3f4), color-stop(#69bff8), color-stop(#52cffe), color-stop(#41dfff), color-stop(#46eefa), to(#5ffbf1));
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-attachment: fixed;
+}
+
+#carte {
+  height: 400px;
+  width: 400px;
+  border: 3px black solid;
+  margin: 0 auto;
+}
+
+.custom-map-control-button {
+  background-color: #000000;
+  padding: 5px;
+  border: 2px white solid;
+  color: white;
+  bottom: 24px !important;
+  top: 346px !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+/*# sourceMappingURL=stylestest.css.map */
