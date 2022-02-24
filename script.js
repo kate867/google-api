@@ -6,7 +6,13 @@ function initMap() {
       zoom: 6,
       mapId: '2e26fd7d5ad2c279'
     });
+
+
     infoWindow = new google.maps.InfoWindow();
+
+    google.maps.event.addDomListener(map, "click", () => {
+      window.alert("Merci d'avoir cliqué");
+    });
 
     const marker = new google.maps.Marker({
      position: {lat: 43.63406754781381, lng: 3.872684662541301},
@@ -71,3 +77,6 @@ function initMap() {
   }
   
 
+  // google.maps.event.addDomListener(map, "click", () => {
+  //   window.alert("Map was clicked!");
+  // });

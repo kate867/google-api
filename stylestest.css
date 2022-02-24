@@ -18,7 +18,8 @@ body {
   color: white;
   bottom: 24px !important;
   top: 346px !important;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
 }
 /*# sourceMappingURL=stylestest.css.map */
